@@ -431,7 +431,7 @@ body
     position: absolute;
     z-index: -99;
     margin-top: 13%;
-    margin-left: 30%;
+    margin-left: 29%;
 }
 
 .ContactButterfly1
@@ -451,6 +451,17 @@ body
     z-index: -99;
     margin-top: 18%;
     margin-left: 30%;
+}
+
+.Contact-git-logo
+{
+    width: 10vh;
+    height: 10vh;
+}
+
+.Contact-git-link
+{
+    text-align: center;
 }
 
 /* style for footer */
