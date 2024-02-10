@@ -19,11 +19,6 @@ import ProjectPaperbg2 from '../assets/paperbag6.6.png'
 import ProjectButterfly1 from '../assets/butterfly2.png'
 import ProjectFlower1 from '../assets/flower9.png'
 
-
-
-
-
-
 const Projects = () => {
   return (
     <Box className="container-fluid profilebody">
@@ -32,13 +27,9 @@ const Projects = () => {
       <img src={ProjectButterfly1} alt="" className='ProjectButterfly1'/>
       <img src={ProjectFlower1} alt="" className='ProjectFlower1'/>
 
-
-
-
-
-      <div className='projectcontent'>
-        <h1 className='projectcontent-H2'>Projects</h1>
-        <p className='projectcontent-P'>
+      <div className='project-content'>
+        <h1 className='projectcontent-h2'>Projects</h1>
+        <p className='projectcontent-p'>
             Here are some of the projects I created
         </p>
       </div>
@@ -54,10 +45,8 @@ const Projects = () => {
           <ProjectsContent image={ProjImg5} title="Hamrie" details="Hamrie is an educational web that contains different information regarding hamsters, it is built with HTML, Bootstrap, and CSS." link ="https://safer010.github.io/"/>
           <ProjectsContent image={ProjImg4} title="Billing" details="This is a billing form that gets data such as names, address, and payment methods to the user, it is created with Bootstrap and HTML" link ="https://safer010.github.io/bootstrap-form/"/>
           <ProjectsContent image={ProjImg3} title="Resume" details="This is a resume that contains information about me it is built with HTML and CSS only. This is actually my first project I created" link ="https://safer010.github.io/resume/"/>
-          
         </Box>
       </Box>
-      
     </Box>
   )
 }

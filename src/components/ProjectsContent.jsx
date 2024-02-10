@@ -6,10 +6,8 @@ import CardContent from '@mui/material/CardContent';
 import Box from '@mui/material/Box';
 import { Link } from 'react-router-dom'
 
-
 const ProjectsContent = (props) => {
   return (
-    
     <Box className="container-fluid projectscontent-body">
         <Card className='projectcontent-card'>
       

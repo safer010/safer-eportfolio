@@ -30,13 +30,6 @@ body
     src: url("font/ModernSans-Light.otf");
 }
 
-@font-face
-{
-    font-family: myFont4;
-    src: url("font/GeosansLight-Oblique.ttf");
-}
-
-
 /* style for navbar */
 
 .navbar-body
@@ -91,11 +84,7 @@ body
     height: 570px;
 }
 
-@media screen {
-    
-}
-
-.profileimg
+.profile-img
 {
     text-align: center;
     margin-right: -5%;
@@ -103,13 +92,13 @@ body
     object-fit: contain;
 }
 
-.profilecontent
+.profile-content
 {
     margin-top: 10vh;
     color: #864823;
 }
 
-.profilecontent-H
+.profilecontent-h
 {
     font-family: myFont;
     font-size: 40px;
@@ -119,7 +108,7 @@ body
     margin-left: 21%;
 }
 
-.profilecontent-H2
+.profilecontent-h2
 {
     font-family: myFont1;
     width: 80%;
@@ -128,7 +117,7 @@ body
     margin-left: 23%;
 }
 
-.profilecontent-P
+.profilecontent-p
 {
     font-family: myFont2;
     font-weight: bold;
@@ -139,7 +128,7 @@ body
     margin-left: 23%;
 }
 
-.profilecontent-Link
+.profilecontent-link
 {
     font-family: myFont2;
     font-weight: bold;
@@ -152,17 +141,18 @@ body
     margin-left: 23%;
 }
 
-.profilecontent-Link:hover
+.profilecontent-link:hover
 {
     color:#9E7351;
 }
 
-.profilebody
+.profile-body
 {
     width: 95vw;
 }
 
 /* profile bg style */
+
 .Paperbg1
 {
     background-repeat: no-repeat;
@@ -196,12 +186,12 @@ body
 
 /* style for project */
 
-.projectcontent
+.project-content
 {
     color: #864823;
 }
 
-.projectcontent-H2
+.projectcontent-h2
 {
     font-family: myFont;
     width: 80%;
@@ -211,7 +201,7 @@ body
     text-align: center;
 }
 
-.projectcontent-P
+.projectcontent-p
 {
     font-family: myFont1;
     font-weight: bold;
@@ -222,7 +212,6 @@ body
     text-align: center;
 }
 
-/* style for project content */
 .project-card
 {
     display: flex;
@@ -232,19 +221,7 @@ body
     margin-bottom: 50px;
 }
 
-.projectsContent
-{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-
-.projectcontent-img
-{
-    width: 380px;
-    height: 200px;
-}
+/* style for project content */
 
 .projectscontent-body
 {
@@ -257,7 +234,6 @@ body
     border-radius: 10px;
     height: 440px;
     border:2px solid #864823;
-
 }
 
 .projectcontent-content:hover
@@ -265,11 +241,17 @@ body
     border:3px solid #c39471;
 }
 
+
 .projectcontent-content-img
 {
     text-align: center;
 }
 
+.projectcontent-img
+{
+    width: 380px;
+    height: 200px;
+}
 
 .projectcontent-content-title
 {
@@ -281,7 +263,6 @@ body
     margin-left: 10%;
     text-align: center;
     color: #864823;
-
 }
 
 .projectcontent-content-detail
@@ -293,7 +274,6 @@ body
     margin-top: 20px;
     text-align: justify;
     color: #864823;
-
 }
 
 .projectcontent-link
@@ -326,7 +306,6 @@ body
     position: absolute;
     z-index: -100;
     margin-top: 3%;
-
 }
 
 .ProjectPaperbg2
@@ -375,7 +354,6 @@ body
     text-align: center;
 }
 
-
 .Contact-p
 {
     font-family: myFont2;
@@ -384,6 +362,11 @@ body
     margin-top: 10px;
     color: #864823;
     font-weight: bold;
+}
+
+.Contact-p-link
+{
+    text-align: center;
 }
 
 .Contact-link
@@ -395,9 +378,15 @@ body
     font-weight: bold;
 }
 
-.Contact-p-link
+.Contact-git-link
 {
     text-align: center;
+}
+
+.Contact-git-logo
+{
+    width: 10vh;
+    height: 10vh;
 }
 
 /* style for contact bg */
@@ -410,7 +399,6 @@ body
     height: 20vh;
     position: relative;
     z-index: -100;
-   
 }
 
 .ContactPaperbg2
@@ -451,17 +439,6 @@ body
     z-index: -99;
     margin-top: 18%;
     margin-left: 30%;
-}
-
-.Contact-git-logo
-{
-    width: 10vh;
-    height: 10vh;
-}
-
-.Contact-git-link
-{
-    text-align: center;
 }
 
 /* style for footer */

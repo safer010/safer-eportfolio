@@ -11,6 +11,7 @@ import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
 import ToggleButton from '@mui/material/ToggleButton';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
+let hi = document.getElementsByClassName("hi")
 
 //fix this page 
 
@@ -20,11 +21,13 @@ export default function ButtonAppBar()
 {
   function Toggle ()
   {
-    <Stack> 
-      <Link to="/" className='navbar-link-indiv'>Profile</Link>
-      <Link to="/Projects" className='navbar-link-indiv'>Projects</Link>
-      <Link to="/Contact" className='navbar-link-indiv'>Contact</Link>
-    </Stack>
+    // <Stack> 
+    //   <Link to="/" className='navbar-link-indiv'>Profile</Link>
+    //   <Link to="/Projects" className='navbar-link-indiv'>Projects</Link>
+    //   <Link to="/Contact" className='navbar-link-indiv'>Contact</Link>
+    // </Stack>
+    hi.innerHTML="hi"
+    alert("hi")
   }
 
   let menu = <Box> 
@@ -48,6 +51,7 @@ export default function ButtonAppBar()
 
         <ToggleButton value="center" aria-label="centered" sx={{ display: { xs: 'block ', md: 'block', lg: 'none' } }}>
           <FormatAlignCenterIcon onClick={Toggle}/>
+          <div className='hi'></div>
 
           {/* <Select>
             <MenuItem><Link to="/" className='navbar-link-indiv'>Profile</Link></MenuItem>

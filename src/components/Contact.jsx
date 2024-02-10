@@ -12,10 +12,6 @@ import ContactButterfly1 from '../assets/butterfly2.png'
 import ContactDrawing1 from '../assets/drawing9.png'
 import Gitlogo from '../assets/gitlogo.png'
 
-
-
-
-
 const Contact = () => {
   return (
     
@@ -25,8 +21,6 @@ const Contact = () => {
         <img src={ContactButterfly1} alt="" className='ContactButterfly1'/>
         <img src={ContactDrawing1} alt="" className='ContactDrawing1'/>
 
-
-        
         <h1 className='Contact-h1'>Contact</h1>
         <p className='Contact-p'>Feel free to reach out if you want a to build something together, have a question, or just want to connect.</p>
         <p className='Contact-p-link'><a href="mailto:safermarie10@gmail.com" className='Contact-link'>safermarie10@gmail.com</a></p>
