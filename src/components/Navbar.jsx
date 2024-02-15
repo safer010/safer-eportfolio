@@ -53,11 +53,11 @@ export default function ButtonAppBar()
           <FormatAlignCenterIcon onClick={Toggle}/>
           <div className='hi'></div>
 
-          {/* <Select>
-            <MenuItem><Link to="/" className='navbar-link-indiv'>Profile</Link></MenuItem>
-            <MenuItem><Link to="/Projects" className='navbar-link-indiv'>Projects</Link></MenuItem>
-            <MenuItem><Link to="/Contact" className='navbar-link-indiv'>Contact</Link></MenuItem>
-         </Select> */}
+          <ul>
+            <li><MenuItem><Link to="/" className='navbar-link-indiv'>Profile</Link></MenuItem></li>
+            <li><MenuItem><Link to="/Projects" className='navbar-link-indiv'>Projects</Link></MenuItem></li>
+            <li><MenuItem><Link to="/Contact" className='navbar-link-indiv'>Contact</Link></MenuItem></li>
+         </ul>
         </ToggleButton>
     </Box>
   );
