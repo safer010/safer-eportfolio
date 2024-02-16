@@ -13,7 +13,7 @@ const ProjectsContent = (props) => {
       
             <CardContent className='projectcontent-content'>
                 <Box className='projectcontent-content-img'>
-                  <img src={props.image} className='projectcontent-img'/>
+                  <Link target='blank' to={props.link}><img src={props.image} className='projectcontent-img'/></Link>
                 </Box>
 
                 <h2 gutterBottom variant="h5" component="div" className='projectcontent-content-title'>
